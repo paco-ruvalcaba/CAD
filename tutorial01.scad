@@ -1,1 +1,2 @@
-//// Primer ejemplo de OPENSCAD
+// Primer ejemplo de OPENSCAD
+cube(10);
