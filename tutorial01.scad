@@ -1,2 +1,2 @@
 // Primer ejemplo de OPENSCAD
-cube([20,30,50],center=true);
+cube([60,20,10],center=true);
