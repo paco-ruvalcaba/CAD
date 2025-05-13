@@ -1,5 +1,5 @@
 //2do.  ejemplo de OPENSCAD
-radio_llanta = 19;
+radio_llanta = 6;
 
 //Cuerpo del carro
 rotate([5,0,0]){
