@@ -7,24 +7,28 @@ scale([1.2,1,1])
 translate([5,0,10])
     cube([30,20,10],center=true);
 
-//Llantas
+//Llanta delantera Izquierda
 translate([-20,-15.0,0])
     rotate([90,0,0])
         cylinder(h=3,r=8,center=true);
+//Llanta delantera derecha
 translate([-20,15.0,0])
     rotate([90,0,0])
         cylinder(h=3,r=8,center=true);
+//Llanta trasera izquierda
 translate([20,-15,0])
     rotate([90,0,0])
     cylinder(h=3,r=8,center=true);
+//Llanta trasera derecha
 translate([20,15,0])
     rotate([90,0,0])
     cylinder(h=3,r=8,center=true);
 
-//Ejes
+//Eje delantero
 translate([-20,0,0])
     rotate([90,0,0])
     cylinder(h=30,r=2,center=true);
+//Eje trasero
 translate([20,0,0])
     rotate([90,0,0])
     cylinder(h=30,r=2,center=true);
